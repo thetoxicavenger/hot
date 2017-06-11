@@ -1,0 +1,12 @@
+{
+  "name": "hot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=dev PORT=3000 node src/server"
+  },
+  "dependencies": {
+    "webpack": "^2.6.1"
+  }
+}

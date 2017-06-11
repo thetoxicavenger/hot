@@ -18,7 +18,7 @@ app.style.color = '#333';
 app.style.textAlign = 'center';
 app.style.verticalAlign = 'middle';
 
-console.log('f')
+console.log('fffff')
 
 // Uncomment one of the following lines to see error handling
 // require('unknown-module')

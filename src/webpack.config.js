@@ -1,7 +1,8 @@
+const {join} = require('path')
 var webpack = require('webpack');
 
 module.exports = {
-  context: __dirname,
+  context: join(__dirname, 'client'),
   entry: [
     // Add the client which connects to our middleware
     // You can use full urls like 'webpack-hot-middleware/client?path=http://localhost:3000/__webpack_hmr'

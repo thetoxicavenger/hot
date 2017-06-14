@@ -4,9 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=dev PORT=3000 node src/server"
+    "dev": "NODE_ENV=dev PORT=3000 nodemon src/server"
   },
   "dependencies": {
-    "webpack": "^2.6.1"
+    "handlebars": "^4.0.10",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0",
+    "promise-polyfill": "6.0.2",
+    "superdom": "^1.3.0",
+    "webpack": "^2.6.1",
+    "whatwg-fetch": "^2.0.3"
   }
 }
